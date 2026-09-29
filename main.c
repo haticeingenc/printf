@@ -32,10 +32,10 @@ int main()
     // printf("p: %d | n: %d\n", p, n);
 
     //ınt_min ve ınt_max testi
-    int min = INT_MIN;
-    int max = INT_MAX;
-    printf("%d\n %d\n", max, min);
-    ft_printf("%d\n %d\n", max, min);
+    // int min = INT_MIN;
+    // int max = INT_MAX;
+    // printf("%d\n %d\n", max, min);
+    // ft_printf("%d\n %d\n", max, min);
     
 
     // ft_printf("char: %c\n", 'A');
