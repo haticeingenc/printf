@@ -6,7 +6,7 @@
 /*   By: hingenc <hingenc@student.42istanbul.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/28 14:47:01 by hingenc           #+#    #+#             */
-/*   Updated: 2026/09/28 16:10:26 by hingenc          ###   ########.fr       */
+/*   Updated: 2026/09/29 22:45:44 by hingenc          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,5 +23,6 @@ int	ft_putstr(char *s);
 int	ft_putnbr(long n);
 int	ft_puthex(unsigned long n, char format);
 int	ft_putptr(void *ptr);
+int	ft_putunsigned(unsigned int n);
 
 #endif

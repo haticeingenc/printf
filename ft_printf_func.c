@@ -6,7 +6,7 @@
 /*   By: hingenc <hingenc@student.42istanbul.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/28 14:24:43 by hingenc           #+#    #+#             */
-/*   Updated: 2026/09/28 16:09:47 by hingenc          ###   ########.fr       */
+/*   Updated: 2026/09/29 22:45:54 by hingenc          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -72,7 +72,7 @@ int	ft_putptr(void *ptr)
 
 	len = 0;
 	if (!ptr)
-		return (ft_putstr("0x0"));
+		return (write(1, "(nil)", 5));
 	add = (unsigned long)ptr;
 	len += ft_putstr("0x");
 	len += ft_puthex(add, 'x');
